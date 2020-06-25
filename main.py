@@ -56,5 +56,5 @@ while True:
             pass
 
     except Exception as e:
-        print('ERROR :' + e.message)
+        print('ERROR :' + e)
 
