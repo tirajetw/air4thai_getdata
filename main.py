@@ -127,7 +127,7 @@ def get_data():
 
     payload = ('{' + 
         '\"{}\":\"{}\", '.format('date',data_payload[0]) + 
-        '\"{}\":\"{}\", '.format('pm2.5',data_payload[1]) +
+        '\"{}\":\"{}\", '.format('pm25',data_payload[1]) +
         '\"{}\":\"{}\", '.format('pm10',data_payload[2]) +
         '\"{}\":\"{}\", '.format('O3',data_payload[3]) +
         '\"{}\":\"{}\", '.format('CO',data_payload[4]) +
